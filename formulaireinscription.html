@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>formulaire d'inscription</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <h1> Formulaire d'inscription </h1>
+    
+<form action="mailto:puccicaroline@yahoo.fr" method="post">
+    <label for="LastName"> Nom:</label> <br />
+<input  type="texte" name="LastName" id="LastName" placeholder="Entrez votre Nom" /> <br />
+
+<label for="FirstName"> Prénom :</label> <br />
+<input  type="texte" name="FirstName" id="FirstName" placeholder="Entrez votre Prénom"/> <br />
+
+<label for="email"> email:</label> <br />
+<input  type="email" name="email" id="email" placeholder="Entrez votre email" /> <br />
+
+<label> Est ce que tu recommandes ATA  ? </label>
+<label> <br />
+    <input type="radio" name="recommandation" value="yes">
+    oui
+</label> <br />
+
+<label>
+    <input type="radio" name="recommandation" value="no">
+    non
+</label> <br />
+
+<label>
+    <input type="radio" name="recommandation" value="peut-être">
+    Peit-être
+</label> <br />
+
+</div> <br>
+
+<div>
+<label> Quels sont les framworks d'automatisation</label> <br />
+<label>
+    <input type="checkbox" name="skills" value="selenium">
+    Selenium
+</label> <br />
+<label>
+    <input type="checkbox" name="skills" value="Cypress">
+    Cypress
+</label> <br />
+<label>
+    <input type="checkbox" name="skills" value="Appium">
+    Appium
+</label> <br />
+<label>
+    <input type="checkbox" name="skills" value="Calabash">
+    Calabash
+</label> <br />
+
+</div>
+
+<label for="level"> Comment vous trouvez HTML ? </label> <br />
+<select name="level" id="level">
+<option value="low">facile</option>
+<option value="medium">moyen</option>
+<option value="higt">dur</option> 
+</select> <br />
+<label class="target" for="suggestion">Vos suggestions pour la formation</label> <br />
+      <textarea name="suggestion" id="suggestions" cols="5" rows="4"></textarea> <br />
+
+
+      
+<button type="submit"> Envoyer</button>
+<button type="reset"> Annuler</button>
+</form>
+
+
+    </body>
+   
